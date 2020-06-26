@@ -1,0 +1,848 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Leland {
+  background-image: url(bluebackground.jpg);
+  background-size: 50%;
+  color: green;
+  border: 5px double green;
+  border-radius: 20px;
+  border-left-color: blue;
+  border-right-color: blue;
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: 40px;
+  margin: 8px 8px 8px 8px;
+}
+
+.hr1 {
+  height: 20px;
+  background-image: url(bluebackground.jpg);
+  border: 10px double blue;
+  border-left-color: blue;
+  border-right-color: blue;
+  border-top-color: green;
+  border-bottom-color: blue;
+  border-radius: 20px;
+  margin: 8px 8px 8px 8px;
+}
+
+.hr2 {
+  height: 20px;
+  background-image: url(bluebackground.jpg);
+  border: 10px double blue;
+  border-left-color: blue;
+  border-right-color: blue;
+  border-top-color: blue;
+  border-bottom-color: green;
+  border-radius: 20px;
+  margin: 8px 8px 8px 8px;
+}
+
+.hr3 {
+  height: 20px;
+  background-image: url(bluebackground.jpg);
+  border: 10px double blue;
+  border-left-color: blue;
+  border-right-color: blue;
+  border-top-color: green;
+  border-bottom-color: blue;
+  border-radius: 20px;
+  margin: 8px 8px 8px 8px;
+}
+
+.hr4 {
+  height: 20px;
+  background-image: url(bluebackground.jpg);
+  border: 10px double blue;
+  border-left-color: blue;
+  border-right-color: blue;
+  border-top-color: blue;
+  border-bottom-color: green;
+  border-radius: 20px;
+  margin: 8px 8px 8px 8px;
+}
+
+.box-container {
+  background-image: url(codingbackground4.jpg);
+  border: 10px double white;
+  border-top-color: blue;
+  border-left-color: green;
+  border-right-color: green;
+  border-bottom-color: blue;
+  border-radius: 20px;
+  margin-left: 8px;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.box-container2 {
+  background-image: url(codingbackground4.jpg);
+  background-size: ;
+  border: 10px double white;
+  border-top-color: blue;
+  border-left-color: green;
+  border-right-color: green;
+  border-bottom-color: blue;
+  border-radius: 20px;
+  margin-left: 8px;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.box-container3 {
+  background-image: url(codingbackground5.jpg);
+  border: 10px double white;
+  border-top-color: blue;
+  border-left-color: green;
+  border-right-color: green;
+  border-bottom-color: blue;
+  border-radius: 20px;
+  margin-left: 8px;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.box-container3 {
+  margin-left: 8px;
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+body {
+  background: black;
+}
+
+p {
+  color: white;
+  background-image: url(bluebackground.jpg);
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  border: 10px double blue;
+  border-top-color: green;
+  border-bottom-color: green;
+  border-radius: 10px;
+  margin: 8px 8px 8px 8px;
+}
+
+.p2 {
+  color: green;
+  background-image: url(bluebackground.jpg);
+  border-top-color: green;
+  border-bottom-color: green;
+}
+
+.StoneCodeStunner {
+  background-image: url(bluebackground.jpg);
+  border: 5px solid green;
+  border-left-color: blue;
+  border-right-color: blue;
+  border-radius: 20px;
+  color: blue;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin-top: 30px;
+}
+
+span {
+  transition: all 0.7s ease;
+  transform: translateY(50px);
+  display: inline-block;
+  animation-duration: infinite;
+}
+span.fade {
+  color: green;
+  transform: translateY(0px);
+}
+
+.myimage1 {
+  border: 10px double blue;
+  border-top-color: green;
+  border-bottom-color: green;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  margin-top: 40px;
+}
+
+.img-container2 {
+  text-align: center;
+}
+
+button {
+  color: blue;
+  background: black;
+  font-size: 25px;
+  margin-top: 20px;
+  border: 10px double red;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-color: blue;
+  border-bottom-color: blue;
+}
+
+.img-container {
+  perspective: 1000px;
+}
+
+.img-container:hover .flipper,
+.img-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.img-container,
+.front,
+.back {
+  text-align: center;
+}
+
+.flipper {
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-image: url(bluebackground.jpg);
+  border: 2px double green;
+  border-radius: 20px;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Dropdown Container */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  margin-left: px;
+  margin-right: 8px;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Mega Menu header, if needed */
+.dropdown-content .header {
+  background: blue;
+  padding: 16px;
+  color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-image: url(dropdownmenubackground.jpg);
+  height: 250px;
+}
+
+/* Style links inside the columns */
+.column a {
+  float: none;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a background color on hover */
+.column a:hover {
+  background-color: blue;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Myimage6 {
+  text-align: center;
+}
+
+/* Rocket Body2 and animation*/
+
+.frame {
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%;
+  margin: 0.5em auto;
+  font-size: 5vw;
+  position: relative;
+}
+
+.scene {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: url(darkclouds.jpg);
+  background-size: cover;
+  box-shadow: inset -1em -1em 3em -0.5em rgba(255, 255, 255, 0.6);
+  border: 0.2em double green;
+  border-left-color: blue;
+  border-right-color: blue;
+  box-sizing: border-box;
+  border-radius: 50%;
+  overflow: hidden;
+  animation-delay: start-delay + 0.5s;
+  animation-name: shaking;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shaking {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(-0.05em) translateY(0.05em);
+  }
+  50% {
+    transform: translateX(0.05em) translateY(0.05em);
+  }
+  75% {
+    transform: translateX(0em) translateY(-0.05em);
+  }
+  100% {
+    transform: translateX(0.05) translateY(0.05em);
+  }
+}
+
+/*.scene_main {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: 3;
+  animation-name: fly;
+  animation-delay: start-delay + 0.5s;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+/*.surface {
+  position: absolute;
+  z-index: 0;
+  bottom: 0.8em;
+  left: 0;
+  right: 0;
+  height: 0.3em;
+  background: linear-gradient(
+    to bottom,
+    rgb(89, 83, 68) 0%,
+    rgb(139, 125, 95) 21%,
+    rgb(103, 99, 51) 53%,
+    rgb(44, 42, 16) 66%,
+    rgb(46, 47, 26) 100%
+  );
+}
+
+/*.launch-pad {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.8em;
+  background: #efefef;
+}*/
+
+.shadow {
+  position: absolute;
+  z-index: 2;
+  bottom: 5%;
+  right: 50%;
+  width: 4em;
+  margin-right: -0em;
+  height: 0.15em;
+  background: #555;
+  filter: blur(7px);
+  animation-name: shadow;
+  animation-duration: 1s;
+  animation-delay: start-delay + 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shadow {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.countdown {
+  position: absolute;
+  top: 1em;
+  left: 50%;
+  width: 1.5em;
+  height: 3em;
+  transform: translateX(-50%);
+}
+
+.countdown::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.2em;
+  top: -0.2em;
+  border-radius: 0.1em;
+  left: 0;
+  box-shadow: 0em 0.2em countdown-bg, 0em 1.7em countdown-bg,
+    0em 3.2em countdown-bg;
+  animation-name: countdown-before;
+  animation-duration: start-delay;
+  animation-fill-mode: forwards;
+}
+
+.countdown::after {
+  content: "";
+  position: absolute;
+  width: 0.2em;
+  height: 1.2em;
+  left: -0.3em;
+  border-radius: 0.1em;
+  top: 0.25em;
+  box-shadow: 0.2em 0em countdown-bg, 1.7em 0em countdown-bg,
+    0.2em 1.5em countdown-bg, 1.7em 1.5em countdown-bg;
+  animation-name: countdown-after;
+  animation-duration: start-delay;
+  animation-fill-mode: forwards;
+}
+
+@keyframes countdown-before {
+  0%,
+  24% {
+    box-shadow: 0em 0.2em countdown-highlight, 0em 1.7em countdown-highlight,
+      0em 3.2em countdown-highlight;
+  }
+  25%,
+  49% {
+    box-shadow: 0em 0.2em countdown-highlight, 0em 1.7em countdown-highlight,
+      0em 3.2em countdown-highlight;
+  }
+  50%,
+  74% {
+    box-shadow: 0em 0.2em countdown-bg, 0em 1.7em countdown-bg,
+      0em 3.2em countdown-bg;
+  }
+  75%,
+  99% {
+    opacity: 1;
+    box-shadow: 0em 0.2em countdown-highlight, 0em 1.7em countdown-bg,
+      0em 3.2em countdown-highlight;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes countdown-after {
+  0%,
+  24% {
+    box-shadow: 0.2em 0em countdown-bg, 1.7em 0em countdown-highlight,
+      0.2em 1.5em countdown-bg, 1.7em 1.5em countdown-highlight;
+  }
+  25%,
+  49% {
+    box-shadow: 0.2em 0em countdown-bg, 1.7em 0em countdown-highlight,
+      0.2em 1.5em countdown-highlight, 1.7em 1.5em countdown-bg;
+  }
+  50%,
+  74% {
+    box-shadow: 0.2em 0em countdown-bg, 1.7em 0em countdown-highlight,
+      0.2em 1.5em countdown-bg, 1.7em 1.5em countdown-highlight;
+  }
+  75%,
+  99% {
+    opacity: 1;
+    box-shadow: 0.2em 0em countdown-highlight, 1.7em 0em countdown-highlight,
+      0.2em 1.5em countdown-highlight, 1.7em 1.5em countdown-highlight;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.rocket {
+  bottom: 3em;
+  left: 50%;
+  margin-left: -0.4em;
+  position: absolute;
+  height: 3em;
+  width: 0.8em;
+  animation-name: alt-shaking;
+  animation-delay: 4.5s;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes alt-shaking {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(0.05em) translateY(-0.05em);
+  }
+  50% {
+    transform: translateX(-0.05em) translateY(-0.05em);
+  }
+  75% {
+    transform: translateX(0em) translateY(0.05em);
+  }
+  100% {
+    transform: translateX(-0.05em) translateY(-0.05em);
+  }
+}
+
+.rocket__body {
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 0.05em;
+  border-bottom-right-radius: 0.05em;
+  background: #fff;
+  background: linear-gradient(
+    to right,
+    black 0%,
+    black 20%,
+    blue 60%
+      /*rgb(73, 97, 130) 0%,
+    rgb(117, 154, 187) 20%,
+    rgb(82, 93, 115) 60%,
+    rgb(174, 188, 204) 80%,
+    rgb(226, 221, 228) 98%,
+    rgb(180, 195, 214) 100%
+  */
+  );
+  box-shadow: inset 0.2em 0em 0.4em 0 rgba(0, 0, 0, 0.4),
+    inset -0.3em 0.2em 0.4em 0.2em rgba(255, 255, 255, 0.1);
+}
+
+.rocket__fin {
+  z-index: 1;
+  position: absolute;
+}
+
+.rocket__fin--left {
+  border-bottom: 1.3em solid /*rgb(73, 97, 130)*/ black;
+  border-right: 0.6em solid transparent;
+  transform: rotate(-135deg);
+  bottom: -0.5em;
+  left: -0.5em;
+}
+
+.rocket__fin--right {
+  border-bottom: 1.3em solid black;
+  border-left: 0.6em solid transparent;
+  transform: rotate(135deg);
+  bottom: -0.5em;
+  right: -0.5em;
+}
+
+.rocket__fin--center {
+  z-index: 3;
+  bottom: -0.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.09em;
+  height: 1.2em;
+  background: black;
+}
+
+.rocket__stream {
+  position: absolute;
+  left: 50%;
+  opacity: 0;
+  z-index: 1;
+  border-left: 0.05em solid white;
+  border-right: 0.05em solid white;
+  bottom: -0.4em;
+  height: 0.4em;
+  width: 0.2em;
+  transform: translateX(-50%);
+  background: yellow;
+  animation-name: stream;
+  animation-duration: inherit;
+  animation-delay: start-delay;
+  animation-fill-mode: fowards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes stream {
+  0% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+    height: 12em;
+    bottom: -12em;
+  }
+  100% {
+    opacity: 1;
+    height: 12em;
+    bottom: -12em;
+  }
+}
+
+.smoke {
+  position: absolute;
+  bottom: 2em;
+  width: 100%;
+  opacity: 0;
+  z-index: 6;
+  animation-name: smoke;
+  animation-duration: 10s;
+  animation-delay: start-delay;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes smoke {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  1%,
+  90% {
+    opacity: 1;
+  }
+}
+
+.smoke__bubble {
+  opacity: 0;
+  position: absolute;
+  bottom: -0.1em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1.2em;
+  height: 1.2em;
+  background: white;
+  border-radius: 50%;
+  animation-name: smoke-left;
+  animation-duration: 2s;
+  animation-delay: start-delay;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+.smoke__bubble:nth-child(1) {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.smoke__bubble:nth-child(2) {
+  width: 1.5em;
+  height: 1.5em;
+  animation-delay: start-delay + -1ms;
+}
+
+.smoke__bubble:nth-child(3) {
+  width: 1em;
+  height: 1em;
+  animation-delay: start-delay + -2ms;
+}
+
+.smoke__bubble:nth-child(4) {
+  width: 1.5em;
+  height: 1.5em;
+  animation-delay: start-delay + -3ms;
+}
+
+.smoke__bubble:nth-child(5) {
+  width: 2em;
+  height: 2em;
+  animation-delay: start-delay + -4ms;
+}
+
+.smoke__bubble:nth-child(6) {
+  width: 2.5em;
+  height: 2.5em;
+  animation-delay: start-delay + -5ms;
+}
+
+.smoke__bubble:nth-child(7) {
+  width: 1.7em;
+  height: 1.7em;
+  animation-delay: start-delay + -6ms;
+}
+
+.smoke__bubble:nth-child(8) {
+  width: 1.2em;
+  height: 1.2em;
+  animation-name: smoke-right;
+}
+
+.smoke__bubble:nth-child(9) {
+  width: 1.7em;
+  height: 1.7em;
+  animation-delay: start-delay + -5ms;
+  ancimation-name: smoke-right;
+}
+
+.smoke__bubble:nth-child(10) {
+  width: 2.2em;
+  height: 2.2em;
+  animation-delay: start-delay + 0.5s;
+  animation-name: smoke-right;
+}
+
+.smoke__bubble:nth-child(10) {
+  width: 1.2em;
+  height: 1.2em;
+  animation-delay: start-delay + 0.8s;
+  animation-name: smoke-right;
+}
+
+.smoke__bubble:nth-child(11) {
+  width: 2.5em;
+  height: 2.5em;
+  animation-delay: start-delay + 1.2s;
+  animation-name: smoke-right;
+}
+
+.smoke__bubble:nth-child(12) {
+  width: 2em;
+  height: 2em;
+  animation-delay: start-delay + 1.5s;
+  animation-name: smoke-right;
+}
+
+.smoke__bubble:nth-child(13) {
+  width: 2.1em;
+  height: 2.1em;
+  animation-delay: start-delay + 1.9s;
+  animation-name: smoke-right;
+}
+
+.smoke__bubble:nth-child(14) {
+  width: 1.8em;
+  height: 1.8em;
+  animation-name: smoke-alt;
+}
+
+.smoke__bubble:nth-child(15) {
+  width: 1.3em;
+  height: 1.3em;
+  animation-delay: start-delay + 1s;
+  animation-name: smoke-alt;
+}
+
+@keyframes smoke-left {
+  from {
+    background: white;
+    opacity: 1;
+    transform: scale(1) translateX(-50%) translateY(0.9em);
+  }
+  to {
+    background: #ccc;
+    opacity: 0.2;
+    transform: scale(1.5) translateX(-5em) translateY(0);
+  }
+}
+
+@keyframes smoke-alt {
+  from {
+    background: white;
+    opacity: 1;
+    transform: scale(1) translateX(-50%) translateY(0.9em);
+  }
+  to {
+    background: #eee;
+    opacity: 0;
+    transform: scale(1.5) translateX(-25%) translateY(0);
+  }
+}
+
+@keyframes smoke-right {
+  from {
+    background: white;
+    opacity: 1;
+    transform: scale(1) translateX(-50%) translateY(0.9em);
+  }
+  to {
+    background: #ccc;
+    opacity: 0.2;
+    transform: scale(1.5) translateX(5em) translateY(0);
+  }
+}
+
+@keyframes fly {
+  from {
+    transform: translateX(-50%) translateY(0);
+  }
+  to {
+    transform: translateX(-50%) translateY(-12em);
+  }
+}
